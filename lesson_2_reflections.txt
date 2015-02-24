@@ -1,9 +1,27 @@
 
-What happens when you initialize a repository? Why do you need to do it?
+$ What happens when you initialize a repository? Why do you need to do it?
 
 * Git will create the ".git" directory under my working directory
+
 * Here we are in the "master" branch.
 
 * If there are files in the working directory they will NOT be tracked by 
 default. 
+*******************************************************************************
+
+$ How is the staging area different from the working directory and the repository?
+
+* The staging area is the intermediate area between the working directory and the 
+  repository.
+  
+* File on the staging area are not committed yet.
+
+
+
+$ What value do you think it offers?
+
+* Files in the working directory could be added in "groups" to the staging 
+  area for subsequent commits.
+
+* Files could be added or removed from the staging area before commits.
 *******************************************************************************
