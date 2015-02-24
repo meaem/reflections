@@ -1,0 +1,9 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+
+* Git will create the ".git" directory under my working directory
+* Here we are in the "master" branch.
+
+* If there are files in the working directory they will NOT be tracked by 
+default. 
+*******************************************************************************
