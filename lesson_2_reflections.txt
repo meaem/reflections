@@ -43,6 +43,6 @@ $ What are some situations when branches would be helpful in keeping your
 	-different team members as working on the same files
 	-when you experiment some behaviour of the program.
 
-* branches	help by making a new path for the file(s) and keeping the original version 
+* branches	help by making a new log for changing file(s) and keeping the original version 
   intact . then after the new work is done ,hopefully successful, we can merge it to the 
   original work 
