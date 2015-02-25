@@ -25,3 +25,12 @@ $ What value do you think it offers?
 
 * Files could be added or removed from the staging area before commits.
 *******************************************************************************
+
+$ How can you use the staging area to make sure you have one commit per logical
+ change?
+
+* Well, Adding files to staging area using "git add" command.
+* Then check of the status using "git status" to see the tracked files and 
+  untracked files and check if all logical-related files are added on the staging
+  then commit.
+  
