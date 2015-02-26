@@ -51,12 +51,20 @@ $ What are some situations when branches would be helpful in keeping your
  
 $ How do the diagrams help you visualize the branch structure?
 
-* A diagram can help by showing the main baranch (master) and at which points 
+* A diagram can help by showing the main branch (master) and at which points 
   there are side branches out of it
   
 * Also it shows if a branch is out from another branch ... etc.
 
-* This visula tree is better than textual one where its hard to infer the 
+* This visual tree is better than textual one where its hard to infer the 
   structure of the branches
   
 *******************************************************************************
+
+$ What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+* The result of merging is the combination of all commits done on both branches
+  sorted by the their time-stamp.
+  
+* We can delete the branch that we merged from safely after that.
