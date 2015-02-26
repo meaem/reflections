@@ -68,3 +68,15 @@ the diagram the way we do?
   sorted by the their time-stamp.
   
 * We can delete the branch that we merged from safely after that.
+
+********************************************************************************
+
+$ What are the pros and cons of Git’s automatic merging vs. always doing merges 
+  manually?
+  
+* pros of automatic merging is that it saves time to do it manually.
+
+* cons are there are some situations that Git can't decide what to do and a 
+  conflict happen. This need some human decision of what could be merged, which 
+  can lead to some errors or bugs.
+  
