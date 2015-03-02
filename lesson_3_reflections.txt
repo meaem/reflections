@@ -85,7 +85,11 @@ $ What is the benefit of having a copy of the last known state of the remote
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    -Of course using GitHub is the easier and more collaborative way to collaborate.
+	-But in the same time with the help of Git on the local repository to pull and push
+		branches
+	-GitHub features like fork and pull request enable collaborators to work on each ones
+	copy then if necessary a merge can be performed to the original source on the GitHub. 
 	
 *******************************************************************************
 When would you want to make changes in a separate branch rather than directly in
