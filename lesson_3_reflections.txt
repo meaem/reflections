@@ -1,21 +1,65 @@
 $ When would you want to use a remote repository rather than keeping all your work
 local?
 
-* Using remote repositories is essential for working collaboratively with other team members.
+* Using remote repositories is essential for working collaboratively with other 
+  team members.
+
 * They facilitates collaboration between members.
-* Also working on open source systems mostly benefits from these repos
+* Also working on open source systems mostly benefits from these repos.
 
-    
+*******************************************************************************    
 
-Why might you want to always pull changes manually rather than having Git
+$ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+* First I might have current work on some files that i don't want them to be swiped out when 
+  automatic pull is done.
 
+* Second 'pull' can pull any branch from the remote repo. But which of them I want to pull?
+  I don't want any new branch to be automatically pulled into my machine unless i really want that
+  
+*******************************************************************************
+ 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+*	branches: 
+		- Are series of subsequent commits which are based on each other. They
+			are needed in situations like adding new feature without affecting 
+			the current running version of the software. Or even when testing 
+			some alternative solution without touching the current RUNNING one.
+			
+		- One repository might have more than one branch. 
+		- the default branch name is "master"
+		- Branches could be merged into each other. This might lead to a 
+			conflict when both branches have specific changes in the same 
+			part of a file
+			
+		- To see all branched type "git branch"
+		- To create a new branch type " git branch branchName" 
+		- To checkout a branch type " git checkout branchName"
+		- To delete branch type " git branch -d branchName"
+		- To create and checkout new branch type "git checkout -b newBranchName"
+		- To merge a branch (branchName) into another (master) first you have to 
+		    checkout the master "git checkout master" then merge
+		  "git merge branchName"
+		  
+*	clones
+		- Are copies of repositories either from a remote source or local source.
+		- cloning could be done over the repository with all its branches.
+		- to clone a repository from GitHub type "git clone REPO_URL"
+		- cloning retrieve all commit history of all branches
+		
+*	forks
+		- Are GitHub alternative for cloning into GitHub itself.
+		- This means that a fork is a typical version of the source repository
+			but on GitHub.
+		- When you fork a repository, its will be added to your repositories by default.
+		- Then you can clone it on your local machine and update it locally.
+		- When you push your updates, they are pushed into you forked repository not 
+			the original one.
+		- Then you can make a "pull request" to the repository owner to check 
+		  your updates and either accept them or not.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
