@@ -12,11 +12,13 @@ local?
 $ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-* First I might have current work on some files that i don't want them to be swiped out when 
-  automatic pull is done.
+* First I might have current work on some files that i don't want them to be 
+	swiped out when automatic pull is done.
 
-* Second 'pull' can pull any branch from the remote repo. But which of them I want to pull?
-  I don't want any new branch to be automatically pulled into my machine unless i really want that
+* Second 'pull' can pull any branch from the remote repo. But which of them I 
+	want to pull?
+  I don't want any new branch to be automatically pulled into my machine unless
+	I really want that
   
 *******************************************************************************
  
@@ -39,13 +41,15 @@ use one instead of another?
 		- To create a new branch type " git branch branchName" 
 		- To checkout a branch type " git checkout branchName"
 		- To delete branch type " git branch -d branchName"
-		- To create and checkout new branch type "git checkout -b newBranchName"
-		- To merge a branch (branchName) into another (master) first you have to 
-		    checkout the master "git checkout master" then merge
-		  "git merge branchName"
+		- To create and checkout new branch type: 
+			"git checkout -b newBranchName"
+		- To merge a branch (branchName) into another (master) first you have 
+			to checkout the master "git checkout master" then merge
+			"git merge branchName"
 		  
 *	clones
-		- Are copies of repositories either from a remote source or local source.
+		- Are copies of repositories either from a remote source or local 
+		  source.
 		- cloning could be done over the repository with all its branches.
 		- to clone a repository from GitHub type "git clone REPO_URL"
 		- cloning retrieve all commit history of all branches
@@ -54,23 +58,36 @@ use one instead of another?
 		- Are GitHub alternative for cloning into GitHub itself.
 		- This means that a fork is a typical version of the source repository
 			but on GitHub.
-		- When you fork a repository, its will be added to your repositories by default.
+		- When you fork a repository, its will be added to your repositories by
+     		default.
 		- Then you can clone it on your local machine and update it locally.
-		- When you push your updates, they are pushed into you forked repository not 
-			the original one.
+		- When you push your updates, they are pushed into you forked 
+			repository not the original one.
 		- Then you can make a "pull request" to the repository owner to check 
 		  your updates and either accept them or not.
+		  
+*******************************************************************************
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
-
-    Fill in your answer here
+$ What is the benefit of having a copy of the last known state of the remote
+	stored locally?
+	
+	-First thing it is a copy which is not override your branch. So i can keep track 
+		of all changes different than my changes.
+	
+	-Second I can easily merge this copy into my branch and push back the merged version
+		to the remote source.
+		
+	- I there is a conflict, I can fix it before merging.
+	
+    
+*******************************************************************************
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     Fill in your answer here
-
+	
+*******************************************************************************
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
