@@ -95,4 +95,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I think when someone wishes to change the owner source which may lead to conflict, 
+	  he should first fork the original repository.	Then make a different branch 
+	  and pull the fork into it and make his changes. After that he should push that branch
+	  and make a pull request. If the owner is happy with the changes he can merge them.
+	  But in case a conflict happen the owner may request to other party to 
+	     merge into his master locally. This to be sure that now side effects will arise.
+		 At this time the pull request will be updated with the new commits. Then 
+		 the ownner can merge into his repository 
